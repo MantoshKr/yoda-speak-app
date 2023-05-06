@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>yoda speak</title>
+   
+    <style>
+      
+        textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The body section contains the form for translating sentences -->
+    <h1>yoda Speak </h1>
+    <textarea id="txt-input"
+        placeholder="put your text in english here & press the translate button below to convert it to yoda text "></textarea>
+    <button id="btn-translate">Translate</button>
+
+    <div style="font-size: larger;"> Here is your yoda translation 🙂 </div>
+    <div id="output"></div>
+    <!-- The script section contains the JavaScript code for the translation app -->
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
